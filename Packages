@@ -60,6 +60,20 @@ Description: Adding sources to Cydia automatically defaults to "https://" instea
 Author: lolzadopted
 Name: CyURL
 
+Package: com.lolzadopted.ncontrol
+Version: 1.2.0-1
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Filename: ./debians/com.lolzadopted.ncontrol_1.2.0-1_iphoneos-arm.deb
+Size: 439112
+MD5sum: 3c7fa97caa63afec88e6a4a4be5c9b31
+SHA1: 59db29a709a9ed2fb953e5b183e3be2d10ad77ae
+SHA256: 4d3d504cea99e87ecfb948f865e4dbf20ec9b5002e19f63fb9e602201ac4bfeb
+Section: Tweaks
+Author: Kevin Bradley & Luca Todesco <kevin@nito.tv>
+Icon: https://repo.chariz.io/package/com.nito.ncontrol/icon@3x.png
+Name: nControl
+
 Package: com.lolzadopted.noctis12
 Version: 1.4
 Architecture: iphoneos-arm
@@ -75,4 +89,34 @@ SHA256: 9f04d0833a3f0a38343b7cdb40066306e85e341abd2a6a3bb5e6ac5b46c58a96
 Section: Tweaks
 Author: LaughingQuoll
 Name: Noctis12
+
+Package: com.lolzadopted.sential
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: firmware (>= 7.0)
+Filename: ./debians/com.lolzadopted.sential_1.3_iphoneos-arm.deb
+Size: 2347048
+MD5sum: 6327e0a1dc735cb7407bc11f9e8af173
+SHA1: b1002d172f194a2963621e409ce294029ed41eef
+SHA256: 660e8b83d9c92098fa9fa7e114e114402adcc92de2f48e2365f63651690c53b3
+Section: Themes
+Description: Improve your iOS Icons.
+Author: Aesign <a.chiarlitti@icloud.com>
+Name: Sential
+
+Package: com.lolzadopted.ultrasound
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Filename: ./debians/com.lolzadopted.ultrasound_1.0_iphoneos-arm.deb
+Size: 553832
+MD5sum: 312ef990f35595f68edc87253997d7d4
+SHA1: a5848db1f97d5b1e19854ea3a17f14d25363e36a
+SHA256: 78c07811c4894e4e6a690eb0d2a728548e709aa628ff6fa6160d4c095e6544fb
+Section: Tweaks
+Description: The volume HUD you deserve. Since iOS 7, the volume HUD has been abysmal. Blocking a large portion of the screen when shown, requiring you to use the buttons to quickly adjust, and taking a long time to dismiss, it is one of the most comm
+Author: AppleBetas
+Name: Ultrasound
 
