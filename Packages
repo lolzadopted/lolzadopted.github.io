@@ -1,0 +1,17 @@
+Package: com.lolzadopted.cydown
+Version: 6.9.7
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown, org.coolstar.sileo
+Replaces: com.julioverne.cydown
+Filename: ./debians/com.lolzadopted.cydown_6.9.7_iphoneos-arm.deb
+Size: 963704
+MD5sum: 17655353d5f6d90e6fb62901aad58319
+SHA1: 6baca0d23402bfa77f8a94f88ace83cbe1a783d4
+SHA256: 70b39db5e795d8510abcf08e7f03b57c13008a84732fa67bf3601172ab60f118
+Section: Tweaks
+Description: Cydia Download Manager & Extra Features! R.I.P. Xar0ld. 💔
+Author: julioverne
+Name: CyDown
+
