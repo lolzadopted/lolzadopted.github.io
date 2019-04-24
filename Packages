@@ -61,17 +61,17 @@ Author: lolzadopted
 Name: CyURL
 
 Package: com.lolzadopted.ncontrol
-Version: 1.2.0-1
+Version: 1.2.0-11
 Architecture: iphoneos-arm
 Maintainer: lolzadopted
-Filename: ./debians/com.lolzadopted.ncontrol_1.2.0-1_iphoneos-arm.deb
-Size: 439112
-MD5sum: 3c7fa97caa63afec88e6a4a4be5c9b31
-SHA1: 59db29a709a9ed2fb953e5b183e3be2d10ad77ae
-SHA256: 4d3d504cea99e87ecfb948f865e4dbf20ec9b5002e19f63fb9e602201ac4bfeb
+Filename: ./debians/com.lolzadopted.ncontrol_1.2.0-11_iphoneos-arm.deb
+Size: 442490
+MD5sum: b5bd5e9861ce628589758d7b335f9fcc
+SHA1: 11ebbda784336a1ba480fa46f4f0f0e1744ab67c
+SHA256: 79e1b15966fe5764a6d6c5aa649cb4a77e3ad31dc92d3850621172b3f8ec7716
 Section: Tweaks
-Author: Kevin Bradley & Luca Todesco <kevin@nito.tv>
-Icon: https://repo.chariz.io/package/com.nito.ncontrol/icon@3x.png
+Description: Take the control
+Author: Kevin Bradley & Luca Todesco
 Name: nControl
 
 Package: com.lolzadopted.noctis12
