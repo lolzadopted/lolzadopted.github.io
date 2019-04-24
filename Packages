@@ -1,3 +1,33 @@
+Package: com.lolzadopted.betterccxi
+Version: 1.4.8
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Filename: ./debians/com.lolzadopted.betterccxi_1.4.8_iphoneos-arm.deb
+Size: 61432
+MD5sum: aee18c163369b60d0b043b66ae33966c
+SHA1: ba1672945eb30efea4893ffa9bf47bcb63246504
+SHA256: 0dd4aa2571d8aacf29a27c469a4f70cc4d9c0d734f847027b80be83f8a77f7a3
+Section: Tweaks
+Author: ATWiiks
+Name: BetterCCXI
+
+Package: com.lolzadopted.betterccxiweather
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, com.lolzadopted.betterccxi
+Conflicts: org.cydia.kiimo.betterccxiweather
+Replaces: org.cydia.kiimo.betterccxiweather
+Filename: ./debians/com.lolzadopted.betterccxiweather_1.0.1_iphoneos-arm.deb
+Size: 13848
+MD5sum: 0501d950984d9620e16e48a94bac33da
+SHA1: 8b06d79631827fdb92c69fd806f5d7cf21641153
+SHA256: 30e532b3c5e9f4d759ed9ae43af55358800962d0fbf5acd55b9c8e0e24aa82db
+Section: Tweaks
+Author: ATWiiks
+Name: BetterCCXI (Weather Addon)
+
 Package: com.lolzadopted.cydown
 Version: 6.9.7
 Architecture: iphoneos-arm
@@ -14,4 +44,35 @@ Section: Tweaks
 Description: Cydia Download Manager & Extra Features! R.I.P. Xar0ld. 💔
 Author: julioverne
 Name: CyDown
+
+Package: com.lolzadopted.cyurl
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: mobilesubstrate
+Filename: ./debians/com.lolzadopted.cyurl_1.0.2_iphoneos-arm.deb
+Size: 23048
+MD5sum: b5c25542ef71bdf3d4c3e76736dada87
+SHA1: 36993562bf1601310cd44dbe599e1dba6d6a5b3d
+SHA256: 3a9848d3608160ec8ecb9aedcd8d4cfa5d6ba307eecc9c6f301fe74a293d5e2d
+Section: Tweaks
+Description: Adding sources to Cydia automatically defaults to "https://" instead of "http://".
+Author: lolzadopted
+Name: CyURL
+
+Package: com.lolzadopted.noctis12
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.opa334.ccsupport
+Conflicts: com.laughingquoll.noctisxi, com.laughingquoll.noctis12, com.repo.xarold.com.noctisxi, com.repo.xarold.con.noctis12, org.cydia.kiimo.noctisxi, org.cydia.kiimo.noctis12
+Replaces: com.laughingquoll.noctisxi, com.laughingquoll.noctis12, com.repo.xarold.com.noctisxi, com.repo.xarold.con.noctis12, org.cydia.kiimo.noctisxi, org.cydia.kiimo.noctis12
+Filename: ./debians/com.lolzadoped.noctis12_1.4_iphoneos-arm.deb
+Size: 223732
+MD5sum: f9d57a67e4e769841a2d566e105e225f
+SHA1: 615defa3e0897510ebf7691308d955b61a2375f5
+SHA256: 9f04d0833a3f0a38343b7cdb40066306e85e341abd2a6a3bb5e6ac5b46c58a96
+Section: Tweaks
+Author: LaughingQuoll
+Name: Noctis12
 
