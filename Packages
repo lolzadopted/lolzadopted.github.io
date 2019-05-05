@@ -1,3 +1,19 @@
+Package: com.lolzadopted.Gesto
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: ./debians/com.lolzadopted.gesto_1.0_iphoneos-arm.deb
+Size: 691920
+MD5sum: 4a1c52111b3069f3851df6737d46350a
+SHA1: c20319cfb02add1c1618718a610d6506be2ca26c
+SHA256: ea01f49f25a1e12abdd154c1cf18399ffbf5e47965869d2593a360729808a03e
+Section: Tweaks
+Priority: optional
+Author: Gabriele Filipponi & Alessandro Chiarlitti
+Icon: file:///Applications/Cydia.app/Sections/TTJB_Tinh_Chỉnh.png
+Name: Gesto
+
 Package: com.lolzadopted.betterccxi
 Version: 1.4.8
 Architecture: iphoneos-arm
@@ -27,6 +43,51 @@ SHA256: 30e532b3c5e9f4d759ed9ae43af55358800962d0fbf5acd55b9c8e0e24aa82db
 Section: Tweaks
 Author: ATWiiks
 Name: BetterCCXI (Weather Addon)
+
+Package: com.lolzadopted.colorbanners2
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5.000), org.thebigboss.libcolorpicker (>= 1.1)
+Conflicts: com.golddavid.colorbanners, com.hackyouriphone.colorbanners, com.golddavid.colorbanners-cb, com.golddavid.colorbanners2
+Filename: ./debians/com.lolzadopted.colorbanners2_1.2.3_iphoneos-arm.deb
+Size: 663188
+MD5sum: 335f713517693d876ffea9f5471a5b93
+SHA1: b1165d9e6eaf4c2dca8e66e03d711ff9ea3b0518
+SHA256: f58d2f9f41d11550e1663f470308bc5f842c796aa0d189fb8a49d99a77bbb8d6
+Section: Tweaks
+Author: David Goldman
+Name: ColorBanners 2 (Packix)
+
+Package: com.lolzadopted.colorflow4
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
+Conflicts: org.thebigboss.colorflow, com.repo.xarold.com.colorflow, com.golddavid.colorflow2, com.repo.xarold.com.colorflow2, com.golddavid.colorflow3, com.repo.xarold.com.colorflow3
+Filename: ./debians/com.lolzadopted.colorflow4_1.2.2_iphoneos-arm.deb
+Size: 718052
+MD5sum: c94963e3793ac165d66d6ed24790ac58
+SHA1: ae8da1a15e644d3de29c239e842a425e195b500f
+SHA256: 384c58cbc98e0ad553e4ae2247fa9c4ef76fe7946eea8d6aad8e52ea2a4e6eb2
+Section: Tweaks
+Author: David Goldman
+Icon: file:///Library/PreferenceBundles/ColorFlow4Prefs.bundle/ColorFlow@3x.png
+Name: ColorFlow 4 (iOS 11 – 12)
+
+Package: com.lolzadopted.conditionalwifi4
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Depends: mobilesubstrate
+Filename: ./debians/com.lolzadopted.conditionalwifi4_1.0.0_iphoneos-arm.deb
+Size: 9052
+MD5sum: d94ad820d8c6b595b02e4a767e633974
+SHA1: f81716d869f0814f486aea6aa320a42de6acc2b9
+SHA256: dfba95e91d78e35d164713a7e63ced84e4a723c8b112741ebdc886dc940d712e
+Section: Tweaks
+Author: ATWiiks
+Name: ConditionalWiFi4
 
 Package: com.lolzadopted.cydown
 Version: 6.9.7
@@ -59,6 +120,22 @@ Section: Tweaks
 Description: Adding sources to Cydia automatically defaults to "https://" instead of "http://".
 Author: lolzadopted
 Name: CyURL
+
+Package: com.lolzadopted.jellyfish
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: lolzadopted
+Installed-Size: 508
+Depends: mobilesubstrate,preferenceloader,firmware (>= 11.0)
+Conflicts: applebetas.ios.tweak.time11,com.junesiphone.lockpluspro, ru.rejail.lockpluspro
+Filename: ./debians/com.lolzadopted.jellyfish_1.1.2_iphoneos-arm.deb
+Size: 101112
+MD5sum: 393b4b633da9356a561cc5860b30efd5
+SHA1: 068b40264f0ffb7037669a4f26a9f7c7dfee5b9d
+SHA256: a8bbcbc8344abd9042dc6ad0814e6813992afaff9880feb467fb6fe17e070fe7
+Section: Tweaks
+Author: Justin Proulx and AppleBetas
+Name: Jellyfish
 
 Package: com.lolzadopted.ncontrol
 Version: 1.2.0-11
