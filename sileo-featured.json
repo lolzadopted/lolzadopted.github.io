@@ -15,5 +15,11 @@
         "package": "com.lolzadopted.jellyfish",
         "hideShadow": false
     },
+    {
+        "url": "https://coolstar.moe/sileoassets/featured/banners/com.blackhole.gesto.jpg",
+        "title": "Gesto",
+        "package": "com.lolzadopted.gesto",
+        "hideShadow": false
+    },
   ]
 }
