@@ -20,29 +20,16 @@ Architecture: iphoneos-arm
 Maintainer: lolzadopted
 Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
 Filename: ./debians/com.lolzadopted.betterccxi_1.4.8_iphoneos-arm.deb
-Size: 61432
-MD5sum: aee18c163369b60d0b043b66ae33966c
-SHA1: ba1672945eb30efea4893ffa9bf47bcb63246504
-SHA256: 0dd4aa2571d8aacf29a27c469a4f70cc4d9c0d734f847027b80be83f8a77f7a3
+Size: 49400
+MD5sum: bc473a494ab779aedec072114597a0cb
+SHA1: 2b7bff00e708573012be76b737d41367c14d47a7
+SHA256: c5fca5ae0945633ef297c0b3c5003b0910720b87d372abaecdfc1615c0dfa03c
 Section: Tweaks
+Description: BetterCCXI and the Weather Module Combined.
 Author: ATWiiks
-Name: BetterCCXI
-
-Package: com.lolzadopted.betterccxiweather
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: lolzadopted
-Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, com.lolzadopted.betterccxi
-Conflicts: org.cydia.kiimo.betterccxiweather
-Replaces: org.cydia.kiimo.betterccxiweather
-Filename: ./debians/com.lolzadopted.betterccxiweather_1.0.1_iphoneos-arm.deb
-Size: 13848
-MD5sum: 0501d950984d9620e16e48a94bac33da
-SHA1: 8b06d79631827fdb92c69fd806f5d7cf21641153
-SHA256: 30e532b3c5e9f4d759ed9ae43af55358800962d0fbf5acd55b9c8e0e24aa82db
-Section: Tweaks
-Author: ATWiiks
-Name: BetterCCXI (Weather Addon)
+Depiction: https://repo.packix.com/package/com.atwiiks.betterccxi
+Name: BetterCCXI & Weather Module
+Sileodepiction: https://repo.packix.com/api/sileo/package/com.atwiiks.betterccxi/depiction
 
 Package: com.lolzadopted.colorbanners2
 Version: 1.2.3
@@ -51,13 +38,15 @@ Maintainer: lolzadopted
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5.000), org.thebigboss.libcolorpicker (>= 1.1)
 Conflicts: com.golddavid.colorbanners, com.hackyouriphone.colorbanners, com.golddavid.colorbanners-cb, com.golddavid.colorbanners2
 Filename: ./debians/com.lolzadopted.colorbanners2_1.2.3_iphoneos-arm.deb
-Size: 663188
-MD5sum: 335f713517693d876ffea9f5471a5b93
-SHA1: b1165d9e6eaf4c2dca8e66e03d711ff9ea3b0518
-SHA256: f58d2f9f41d11550e1663f470308bc5f842c796aa0d189fb8a49d99a77bbb8d6
+Size: 663236
+MD5sum: daca84a4922d68331e9087d76c458e64
+SHA1: 135ca98927aaee55a96e6ac93a0f8182e23fb56e
+SHA256: a96b6cbe54cbc36e1237a878dc3b9832b8009c11ba15252074a220bc8430300d
 Section: Tweaks
 Author: David Goldman
+Depiction: https://repo.packix.com/package/com.golddavid.colorbanners2
 Name: ColorBanners 2 (Packix)
+Sileodepiction: https://repo.packix.com/api/sileo/package/com.golddavid.colorbanners2/depiction
 
 Package: com.lolzadopted.colorflow4
 Version: 1.2.2
@@ -66,14 +55,16 @@ Maintainer: lolzadopted
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
 Conflicts: org.thebigboss.colorflow, com.repo.xarold.com.colorflow, com.golddavid.colorflow2, com.repo.xarold.com.colorflow2, com.golddavid.colorflow3, com.repo.xarold.com.colorflow3
 Filename: ./debians/com.lolzadopted.colorflow4_1.2.2_iphoneos-arm.deb
-Size: 718052
-MD5sum: c94963e3793ac165d66d6ed24790ac58
-SHA1: ae8da1a15e644d3de29c239e842a425e195b500f
-SHA256: 384c58cbc98e0ad553e4ae2247fa9c4ef76fe7946eea8d6aad8e52ea2a4e6eb2
+Size: 718064
+MD5sum: 61de05773bd1c6736bd87cd4a97f2553
+SHA1: ca071eeb2b99a13ff2d30aab9586fdaad21a5591
+SHA256: ea0ed4dd4600eb8c487c2d52c158bd7be9e62f86e716e421df83834dea03fa4b
 Section: Tweaks
 Author: David Goldman
+Depiction: https://repo.packix.com/package/com.golddavid.colorflow4
 Icon: file:///Library/PreferenceBundles/ColorFlow4Prefs.bundle/ColorFlow@3x.png
 Name: ColorFlow 4 (iOS 11 – 12)
+Sileodepiction: https://repo.packix.com/api/sileo/package/com.golddavid.colorflow4/depiction
 
 Package: com.lolzadopted.conditionalwifi4
 Version: 1.0.0
@@ -81,26 +72,28 @@ Architecture: iphoneos-arm
 Maintainer: lolzadopted
 Depends: mobilesubstrate
 Filename: ./debians/com.lolzadopted.conditionalwifi4_1.0.0_iphoneos-arm.deb
-Size: 9052
-MD5sum: d94ad820d8c6b595b02e4a767e633974
-SHA1: f81716d869f0814f486aea6aa320a42de6acc2b9
-SHA256: dfba95e91d78e35d164713a7e63ced84e4a723c8b112741ebdc886dc940d712e
+Size: 9096
+MD5sum: d194bff519fafb9a3127342697785942
+SHA1: e2a56050e0fe8f9b856b72774c6deea16d2fc9a4
+SHA256: 430eb8d92d4907317d8a24e7de03cf72773275240448b125c87c23e1726ebf35
 Section: Tweaks
 Author: ATWiiks
+Depiction: https://repo.packix.com/package/com.atwiiks.conditionalwifi4
 Name: ConditionalWiFi4
+Sileodepiction: https://repo.packix.com/api/sileo/package/com.atwiiks.conditionalwifi4/depiction
 
 Package: com.lolzadopted.cydown
-Version: 6.9.7
+Version: 6.9.8
 Architecture: iphoneos-arm
 Maintainer: lolzadopted
 Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
-Conflicts: com.julioverne.cydown, org.coolstar.sileo
+Conflicts: com.julioverne.cydown
 Replaces: com.julioverne.cydown
-Filename: ./debians/com.lolzadopted.cydown_6.9.7_iphoneos-arm.deb
-Size: 963704
-MD5sum: 17655353d5f6d90e6fb62901aad58319
-SHA1: 6baca0d23402bfa77f8a94f88ace83cbe1a783d4
-SHA256: 70b39db5e795d8510abcf08e7f03b57c13008a84732fa67bf3601172ab60f118
+Filename: ./debians/com.lolzadopted.cydown_6.9.8_iphoneos-arm.deb
+Size: 963666
+MD5sum: cf0e09c4e4c6e442eca350aecd9921ec
+SHA1: b7bc46d614809c76175c7aed634708e7d9530e0c
+SHA256: 34b5bd8348996e90c79ab4df01ca584e262b39511d63e4e3da012e5dd9941b64
 Section: Tweaks
 Description: Cydia Download Manager & Extra Features! R.I.P. Xar0ld. 💔
 Author: julioverne
@@ -152,20 +145,24 @@ Author: Kevin Bradley & Luca Todesco
 Name: nControl
 
 Package: com.lolzadopted.noctis12
-Version: 1.4
+Version: 1.6.5
 Architecture: iphoneos-arm
 Maintainer: lolzadopted
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.opa334.ccsupport
+Installed-Size: 1584
+Depends: mobilesubstrate, preferenceloader, me.nepeta.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.opa334.ccsupport, com.rpetrich.rocketbootstrap
 Conflicts: com.laughingquoll.noctisxi, com.laughingquoll.noctis12, com.repo.xarold.com.noctisxi, com.repo.xarold.con.noctis12, org.cydia.kiimo.noctisxi, org.cydia.kiimo.noctis12
 Replaces: com.laughingquoll.noctisxi, com.laughingquoll.noctis12, com.repo.xarold.com.noctisxi, com.repo.xarold.con.noctis12, org.cydia.kiimo.noctisxi, org.cydia.kiimo.noctis12
-Filename: ./debians/com.lolzadoped.noctis12_1.4_iphoneos-arm.deb
-Size: 223732
-MD5sum: f9d57a67e4e769841a2d566e105e225f
-SHA1: 615defa3e0897510ebf7691308d955b61a2375f5
-SHA256: 9f04d0833a3f0a38343b7cdb40066306e85e341abd2a6a3bb5e6ac5b46c58a96
+Filename: ./debians/com.lolzadopted.noctis12_1.6.5_iphoneos-arm.deb
+Size: 243032
+MD5sum: a1ae6490152641893b4889e88d1e8655
+SHA1: 79e09d23d78928d827263b3ce05e160391a3251b
+SHA256: 8f31bbf8461e33d97dc7470e1ce68ab2b0121223347e0ee788d00f6f1167ef44
 Section: Tweaks
+Description: Noctis12 - System Wide Dark Mode for iOS
 Author: LaughingQuoll
+Depiction: https://repo.packix.com/package/com.laughingquoll.noctis12
 Name: Noctis12
+Sileodepiction: https://repo.packix.com/api/sileo/package/com.laughingquoll.noctis12/depiction
 
 Package: com.lolzadopted.sential
 Version: 1.3
