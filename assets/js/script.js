@@ -10,11 +10,6 @@ var app = new Vue({
           name: "Twitter"
         },
         {
-          link: "https://discord.gg/KYxPnFG",
-          type: "discord",
-          name: "Discord"
-        },
-        {
           link: "https://reddit.com/u/ItsS0n1c",
           type: "reddit",
           name: "Reddit"
@@ -22,7 +17,7 @@ var app = new Vue({
         {
           link: "https://github.com/lolzadopted",
           type: "github",
-          name: "Github"
+          name: "GitHub"
         },
         {
           link: "mailto:lolzadopted@gmail.com",
