@@ -31,7 +31,7 @@ var app = new Vue({
             type: "fas",
             id: "envelope"
           },
-          name: "Mail"
+          name: "Email"
         }
 
       ],
