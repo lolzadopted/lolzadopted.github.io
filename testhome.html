@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="has-background-grey-darker">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>adopted.</title>
+
+  <script src="/cdn-cgi/apps/head/w-bkCdUQwg6bjgOVC1yJWcLWKC0.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+  <div id="app">
+
+
+    <section class="hero is-header has-background-white-bis">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1">
+            <figure class="image is-96x96">
+            	<img src="me_square_transparent.png">
+            </figure>
+ {{info.name}}
+          </h1>
+          <p class="subtitle">
+            18-year-old full stack web developer. Working at <a href="https://zenithdevs.com">Zenith</a>. Managing <a href="https://reddit.com/r/TweakBoxApp">r/TweakBoxApp</a> & <a href="https://sideload.tweakboxapp.com">SideloadBox</a>.
+          </p>
+          <div class="buttons">
+            <div v-for="social in info.social">
+
+              <a :href="social.link" target="_blank" :class="'button is-medium is-rounded '+ social.type">
+						    <span class="icon">
+						      	<i :class="((social.icon_overwrite) ? social.icon_overwrite.type+' fa-'+ social.icon_overwrite.id : 'fab fa-'+ social.type)"></i>
+                </span>
+                <span class="text">
+                  {{social.name}}
+                </span>
+					  	</a>&nbsp;&nbsp;
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section has-background-grey-darker is-dark">
+      <div class="container">
+        <h3 class="title is-3 has-text-white-bis" style="font-weight: 800;">Projects</h3>
+
+        <div class="columns is-multiline">
+          <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
+            <a class="project card" href="http://eclipseemu.me/" target="_blank">
+                  <div class="card-image">
+                      <figure class="image">
+                          <img src="assets/images/eclipse_banner.png" alt="Eclipse">
+                      </figure>
+                  </div>
+                  <div class="card-content">
+                      <div class="content">
+                          <p class="title has-text-white-ter">Eclipse</p>
+                          <p class="author has-text-grey-light">Eclipse is a feature packed web-emulator with things ranging from UI skins to Google Drive integration. It can play games from many generations of consoles. \n \n ### Systems Eclipse comes with NES, SNES, GB, GBC, GBA, SMS, and GG support. More systems are planned to be added in the future. \n \n ### Adding Games You can add games in a variety of different ways. You can easily upload a ROM you want to play into Eclipse to launch it quickly. There’s also the Game Hub where you can add a ROM from a repo, Google Drive, or Dropbox. You can even add one from a URL, which will automatically get you the boxart and the name. We try to make the process as easy as possible so you can get into what matters most: playing games. \n\n ### Web Based While some may see this as a disadvantage for preformance, being web-based has its perks. You can easily access Eclipse from almost any of your devices, assuming it can run the cores. Best of all, if you are on an iOS device, you don’t need to worry about losing your save to a revoke! These are just a few of Eclipse’s many features, and more features come with each major update.</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+
+          <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
+            <a class="project card" href="http://h.evendev.org" target="_blank">
+                  <div class="card-image">
+                      <figure class="image">
+                          <img src="assets/images/headers_banner.png" alt="HeaderFinder">
+                      </figure>
+                  </div>
+                  <div class="card-content">
+                      <div class="content">
+                          <p class="title has-text-white-ter">HeaderFinder</p>
+                          <p class="author has-text-grey-light">Find functions and methods inside SpringBoard headers with ease.</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+
+          <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
+            <a class="project card" href="ios/" target="_blank">
+                  <div class="card-image">
+                      <figure class="image">
+                          <img src="assets/images/ios_banner.png" alt="iOS Toolbox">
+                      </figure>
+                  </div>
+                  <div class="card-content">
+                      <div class="content">
+                          <p class="title has-text-white-ter">iOS Toolbox</p>
+                          <p class="author has-text-grey-light">iOS Toolbox is a collection of services that I've created for dealing with iOS.</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section>
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
