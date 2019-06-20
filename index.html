@@ -15,7 +15,6 @@
 <body>
     <div id="app">
 
-
         <section class="hero is-header has-background-white-bis">
             <div class="hero-body">
                 <div class="container">
@@ -25,20 +24,17 @@
                     <p class="subtitle">
                         Developer and Pirate. Managing Adopted.
                     </p>
-		    <p class="subtitle">
-			Website Made By: <a href="http://twitter.com/ItsS0n1c">Sonic</a>
-                    </p>
                     <div class="buttons">
                         <div v-for="social in info.social">
 
                             <a :href="social.link" target="_blank" :class="'button is-medium is-rounded '+ social.type">
-						    <span class="icon">
+                                <span class="icon">
 						      	<i :class="((social.icon_overwrite) ? social.icon_overwrite.type+' fa-'+ social.icon_overwrite.id : 'fab fa-'+ social.type)"></i>
                 </span>
-                <span class="text">
+                                <span class="text">
                   {{social.name}}
                 </span>
-					  	</a>&nbsp;&nbsp;
+                            </a>&nbsp;&nbsp;
                         </div>
                     </div>
 
@@ -55,7 +51,7 @@
                         <a class="project card" href="http://repo.dclxvi.site/" target="_blank">
                             <div class="card-image">
                                 <figure class="image">
-                                    <img src="assets/images/eclipse_banner.png" alt="Eclipse">
+                                    <img src="assets/images/repo_banner.png" alt="Repo">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -65,14 +61,25 @@
                                 </div>
                             </div>
                         </a>
+                        <a class="project card" href="http://dclxvi.site/torrents" target="_blank">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="assets/images/torrents_banner.png" alt="Torrents">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                    <p class="title has-text-white-ter">Torrent Repository</p>
+                                    <p class="author has-text-grey-light">This is my Piracy (Torrents) Repository.</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
 
                 </div>
 
-
             </div>
         </section>
-
 
     </div>
 
